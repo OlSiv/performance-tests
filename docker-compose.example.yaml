@@ -4,7 +4,7 @@ services:
   script:
     build:
       context: .
-      dockerfile: Dockerfile.redis
+      dockerfile: Dockerfile.compose-example
 
   redis:
     image: redis:alpine
